@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar-Footer</title>
+</head>
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-secondary shadow py-3">
+            <div class="container">
+              <a class="navbar-brand text-uppercase" href="#" id="logo"><span class="text-danger">B</span>ilkant</a>
+              <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" >
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-burger fa-xl"></i>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand text-uppercase offcanvas-title" href="#" id="logo"><span class="text-danger">B</span>ilkant</a>
+                    <button type="button"  class="btn ms-auto" data-bs-dismiss="offcanvas">
+                        <i class="fa-regular fa-circle-xmark fa-xl"></i>
+                    </button>
+                </div>
+                <div class="offcanvas-body justify-content-end">
+                    <ul class="navbar-nav pe-3 align-items-lg-center">
+                        <li class="nav-item mx-lg-1">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item mx-lg-1">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item dropdown mx-lg-1">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Projects</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">2024/2025 Projects</a></li>
+                                <li><a href="#" class="dropdown-item">2023/2024 Projects</a></li>
+                                <li><a href="#" class="dropdown-item">2022/2023 Projects</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-lg-1">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <form class="d-flex mt-3 mt-lg-0 ms-lg-5" role="search">
+                            <input type="search" class="form-control me-2" placeholder="Search">
+                            <button class="btn btn-danger" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main style="text-align: center;">
+        <div class="container">
+            <h2 class="border-bottom mb-3 pb-2">Bootstrap 5 Navbar&Footer Exercise</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat modi ut praesentium, nemo vitae fuga nisi id asperiores voluptatibus, consequatur ea necessitatibus ipsam libero laboriosam soluta impedit architecto? Expedita nisi beatae sunt aut corporis voluptas quas magni asperiores, libero veniam labore dolorum praesentium ab perferendis nemo totam error sequi eveniet, debitis necessitatibus soluta aliquid provident magnam. Optio vero facilis numquam iste natus in explicabo officiis suscipit, earum, quibusdam quasi repellat debitis voluptatem eveniet molestiae consectetur ratione dolore. Fugit tempore distinctio quis molestias. Expedita commodi doloribus nesciunt illum dolores accusantium quaerat non molestiae animi minus maiores voluptas, magni id vel, quibusdam blanditiis asperiores magnam laborum? Repudiandae magnam quae asperiores beatae nihil praesentium harum sunt dolorum autem. Voluptate, corporis. Possimus consectetur omnis cum corporis! Expedita, ullam error. Impedit et laudantium a. Soluta laboriosam voluptas dolor asperiores. Adipisci quam ex dolores alias, et quia doloribus dolor, autem, neque sint iste assumenda repellat quis.
+            </p>
+            <br>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus iste voluptas maiores beatae est cupiditate architecto ducimus? Harum possimus fugit odit quasi eius ad? Error ex recusandae optio possimus natus deserunt nulla officia explicabo aut, laudantium, ad molestiae cupiditate, ullam maxime. Debitis doloremque quis autem aliquam incidunt mollitia, modi ex neque officia pariatur veniam id quae iste aut voluptas magnam temporibus recusandae consequatur in quisquam ullam nam, tempora repellendus? Aut adipisci facilis nulla quam fugit rerum velit iusto at.
+            </p>
+        </div>
+    </main>
+
+    <footer class="bg-secondary text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2 class="fw-bold">Visit Bilkant</h2>
+                    <p class="fs-6">977 Ipsum St <br> Ankara, Turkey</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h2 class="fw-bold">Our Services</h2>
+                    <ul class="footer-nav">
+                        <li class="footer-nav-item"><a href="#"><i class="fa-solid fa-chevron-right"></i>Lorem </a></li>
+                        <li class="footer-nav-item"><a href="#"><i class="fa-solid fa-chevron-right"></i>Ipsum</a></li>
+                        <li class="footer-nav-item"><a href="#"><i class="fa-solid fa-chevron-right"></i>Dolor</a></li>
+                        <li class="footer-nav-item"><a href="#"><i class="fa-solid fa-chevron-right"></i>Sitrs</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h2 class="fw-bold">Contact Bilkant</h2>
+                    <form>
+                        <input type="email" placeholder="Your Mail" class="form-control mb-2">
+                        <textarea class="form control" cols="15" style="width: 100%;" placeholder="Your message here"></textarea>
+                        <button type="submit" class="btn btn-warning w-100">Send</button>
+                    </form>
+                </div>
+            </div>
+            <p class="mt-5 text-center">All rights reserved &copy; 2024 </p>
+
+           
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
